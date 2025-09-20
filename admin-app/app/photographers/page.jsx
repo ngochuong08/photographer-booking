@@ -11,9 +11,19 @@ export default function PhotographersPage() {
         <div className="content container-fluid">
           <div class="page-header">
             <div class="row">
-              <div class="col-sm-12">
-                <h3 class="page-title">List of Photographers</h3>
-               
+              <div class="col-sm-10">
+                <h3 class="page-title">
+                  <span> List of Photographers </span>
+                </h3>
+                </div>
+              <div class="col-sm-2" style={{textAlign: 'right'}}>
+
+                <a
+                  href="./add-photographer"
+                  class="btn btn-primary btn-rounded float-right"
+                >
+                  <i class="fa fa-plus"></i> Add Photographer
+                </a>
               </div>
             </div>
           </div>

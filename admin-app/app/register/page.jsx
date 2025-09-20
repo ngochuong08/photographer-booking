@@ -30,18 +30,7 @@ export default function RegisterPage(){
                   </div>
                 </form>
 
-                <div className="login-or">
-                  <span className="or-line"></span>
-                  <span className="span-or">or</span>
-                </div>
-
-                <div className="social-login">
-                  <span>Register with</span>
-                  <a href="#" className="facebook"><i className="fa-brands fa-facebook-f"></i></a>
-                  <a href="#" className="google"><i className="fa-brands fa-google"></i></a>
-                </div>
-
-                <div className="text-center dont-have">Already have an account? <a href="#">Login</a></div>
+                <div className="text-center dont-have">Already have an account? <a href="./login">Login</a></div>
               </div>
             </div>
           </div>
