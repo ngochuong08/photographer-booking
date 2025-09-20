@@ -20,23 +20,14 @@ export default function Footer(){
                     </ul>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-3">
-                  <div className="footer-widget footer-menu">
-                    <h6 className="footer-title">Treatments</h6>
-                    <ul>
-                      <li><a href="#">Dental</a></li>
-                      <li><a href="#">Cardiac</a></li>
-                      <li><a href="#">Spinal Cord</a></li>
-                    </ul>
-                  </div>
-                </div>
+                
                 <div className="col-lg-3 col-md-3">
                   <div className="footer-widget footer-menu">
                     <h6 className="footer-title">Specialities</h6>
                     <ul>
-                      <li><a href="#">Transplant</a></li>
-                      <li><a href="#">Cardiologist</a></li>
-                      <li><a href="#">Oncology</a></li>
+                      <li><a href="#">Astrophotography</a></li>
+                      <li><a href="#">Drone Photography</a></li>
+                      <li><a href="#">Underwater Photography</a></li>
                     </ul>
                   </div>
                 </div>

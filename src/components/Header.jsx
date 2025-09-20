@@ -35,13 +35,16 @@ export default function Header(){
                     <a href="#">Home <i className="fas fa-chevron-down"></i></a>
                   </li>
                   <li className="has-submenu">
-                    <a href="#">Photographers <i className="fas fa-chevron-down"></i></a>
+                    <a href="/booking/1">Photographers <i className="fas fa-chevron-down"></i></a>
                   </li>
                   <li className="has-submenu">
                     <a href="#">Pages <i className="fas fa-chevron-down"></i></a>
                   </li>
                   <li className="has-submenu">
                     <a href="#">Blog <i className="fas fa-chevron-down"></i></a>
+                  </li>
+				  <li className="has-submenu">
+                    <a href="#">Contact Us <i className="fas fa-chevron-down"></i></a>
                   </li>
                 </ul>
               </div>

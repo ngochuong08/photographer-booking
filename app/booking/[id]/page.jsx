@@ -71,7 +71,7 @@ export default function BookingPage({ params }) {
                             <div class="d-flex align-items-center flex-wrap rpw-gap-2 flex-wrap row-gap-2">
                               <span class="avatar avatar-xxxl avatar-rounded me-2 flex-shrink-0">
                                 <img
-                                  src="assets/img/clients/client-15.jpg"
+                                  src="/theme/assets/img/clients/client-15.jpg"
                                   alt=""
                                 />
                               </span>
