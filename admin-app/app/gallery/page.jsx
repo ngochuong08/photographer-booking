@@ -12,11 +12,11 @@ export default function AlbumsPage(){
           <div className="page-header">
             <div className="row">
               <div className="col-sm-7 col-auto">
-                <h3 className="page-title">Collections</h3>
+                <h3 className="page-title">Galleries</h3>
               </div>
               <div className="col-sm-5 col">
                 <a href="#Add_Album" data-bs-toggle="modal" className="btn btn-primary btn-rounded float-end mt-2">
-                      <i class="fa fa-plus"></i> Add new collection</a>
+                      <i class="fa fa-plus"></i> Add new photos collection</a>
             
               </div>
             </div>
