@@ -133,16 +133,7 @@ export default function CollectionsPage(){
 
             {/* Sidebar */}
             <div className="col-lg-4 col-md-12 sidebar-right theiaStickySidebar">
-              <div className="card search-widget">
-                <div className="card-body">
-                  <form className="search-form">
-                    <div className="input-group">
-                      <input type="text" placeholder="Search..." className="form-control" />
-                      <button type="submit" className="btn btn-primary"><i className="isax isax-search-normal" /></button>
-                    </div>
-                  </form>
-                </div>
-              </div>
+              
 
               <div className="card post-widget">
                 <div className="card-body">

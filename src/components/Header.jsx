@@ -9,7 +9,7 @@ export default function Header(){
         <div className="container">
           <nav className="navbar navbar-expand-lg header-nav">
             <div className="navbar-header">
-              <a id="mobile_btn" href="#">
+              <a id="mobile_btn" href="./">
                 <span className="bar-icon">
                   <span></span>
                   <span></span>
@@ -26,13 +26,13 @@ export default function Header(){
                   <Link href="/" className="menu-logo">
                     <img src="/theme/assets/img/logo-1.png" className="img-fluid" alt="Logo" />
                   </Link>
-                  <a id="menu_close" className="menu-close" href="#">
+                  <a id="menu_close" className="menu-close" href="./">
                     <i className="fas fa-times"></i>
                   </a>
                 </div>
                 <ul className="main-nav">
                   <li className="has-submenu megamenu active">
-                    <a href="#">Home <i className="fas fa-chevron-down"></i></a>
+                    <a href="./">Home <i className="fas fa-chevron-down"></i></a>
                   </li>
                   <li className="has-submenu">
                     <a href="/search">Photographers <i className="fas fa-chevron-down"></i></a>
@@ -42,16 +42,16 @@ export default function Header(){
                   </li>
                   
                   <li className="has-submenu">
-                    <a href="#">Blog <i className="fas fa-chevron-down"></i></a>
+                    <a href="./">Blog <i className="fas fa-chevron-down"></i></a>
                   </li>
 				  <li className="has-submenu">
-                    <a href="#">Contact Us <i className="fas fa-chevron-down"></i></a>
+                    <a href="./">Contact Us <i className="fas fa-chevron-down"></i></a>
                   </li>
                 </ul>
               </div>
               <ul className="nav header-navbar-rht">
                 <li className="searchbar">
-                  <a href="#"><i className="feather-search"></i></a>
+                  <a href="./"><i className="feather-search"></i></a>
                 </li>
                 <li>
                   <Link href="/auth/login" className="btn btn-md btn-primary-gradient d-inline-flex align-items-center rounded-pill"><i className="isax isax-lock-1 me-1"></i>Sign Up</Link>

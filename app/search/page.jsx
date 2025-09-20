@@ -166,7 +166,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-01.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-01.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>5.0</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -184,7 +184,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Michael Brown</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Michael Brown</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Minneapolis, MN</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -208,7 +208,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-02.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-02.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.6</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -226,7 +226,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Nicholas Tello</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Nicholas Tello</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Ogden, IA</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -250,7 +250,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-03.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-03.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.8</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -268,7 +268,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Harold Bryant</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Harold Bryant</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Winona, MS</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -292,7 +292,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-04.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-04.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.8</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -310,7 +310,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Sandra Jones</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Sandra Jones</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Beckley, WV</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -334,7 +334,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-05.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-05.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.2</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -352,7 +352,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Charles Scott</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Charles Scott</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Hamshire, TX</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -376,7 +376,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-06.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-06.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.2</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -394,7 +394,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Robert Thomas</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Robert Thomas</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Oakland, CA</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -418,7 +418,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-07.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-07.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.7</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -436,7 +436,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Margaret Koller</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Margaret Koller</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Killeen, TX</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -460,7 +460,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-08.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-08.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.7</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -478,7 +478,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Cath Busick</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Cath Busick</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Schenectady, NY</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -502,7 +502,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-09.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-09.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.9</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -520,7 +520,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Travis Barton</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Travis Barton</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Metairie, LA</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -544,7 +544,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-10.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-10.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>5.0</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -562,7 +562,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Daisy Malcolm</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Daisy Malcolm</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Lexington, KY</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -586,7 +586,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-11.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-11.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.4</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -604,7 +604,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Tyrone Patrick</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Tyrone Patrick</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Clark Fork, ID</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
@@ -628,7 +628,7 @@ export default function SearchPage({ searchParams }){
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="card">
 							<div className="card-img card-img-hover">
-								<a href="doctor-profile.html"><img src="theme/assets/img/doctor-grid/doctor-grid-12.jpg" alt=""/></a>
+								<a href="./photographer/1"><img src="theme/assets/img/doctor-grid/doctor-grid-12.jpg" alt=""/></a>
 								<div className="grid-overlay-item d-flex align-items-center justify-content-between">
 									<span className="badge bg-orange"><i className="fa-solid fa-star me-1"></i>4.2</span>
 									<a href="javascript:void(0)" className="fav-icon">
@@ -646,7 +646,7 @@ export default function SearchPage({ searchParams }){
 								</div>
 								<div className="p-3 pt-0">
 									<div className="doctor-info-detail mb-3 pb-3">
-										<h3 className="mb-1"><a href="doctor-profile.html">Dr. Ann Bell</a></h3>
+										<h3 className="mb-1"><a href="./photographer/1">Dr. Ann Bell</a></h3>
 										<div className="d-flex align-items-center">
 											<p className="d-flex align-items-center mb-0 fs-14"><i className="isax isax-location me-2"></i>Minneapolis, MN</p>
 											<i className="fa-solid fa-circle fs-5 text-primary mx-2 me-1"></i>
