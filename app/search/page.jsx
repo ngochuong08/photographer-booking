@@ -196,7 +196,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$650</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -238,7 +238,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$400</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -280,7 +280,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$500</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -322,7 +322,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$550</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -364,7 +364,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$600</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -406,7 +406,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$450</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -448,7 +448,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$450</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -490,7 +490,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$750</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -532,7 +532,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$480</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -574,7 +574,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$520</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -616,7 +616,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$360</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
@@ -658,7 +658,7 @@ export default function SearchPage({ searchParams }){
 											<p className="mb-1">Consultation Fees</p>
 											<h3 className="text-orange">$630</h3>
 										</div>
-										<a href="booking.html" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
+										<a href="./booking/1" className="btn btn-md btn-dark d-inline-flex align-items-center rounded-pill">
 											<i className="isax isax-calendar-1 me-2"></i>
 											Book Now
 										</a>
