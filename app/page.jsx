@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import DatepickerInit from '../src/components/DatepickerInit'
 
 export default function HomePage(){
   return (
     <>
+      <DatepickerInit />
       <section className="banner-section banner-sec-one">
         <div className="container">
           <div className="row align-items-center">
@@ -28,25 +30,25 @@ export default function HomePage(){
                     </div>
                   </div>
                 </div>
-                <h1 className="display-5">Discover Health: Find Your Trusted <span className="banner-icon"><img src="/theme/assets/img/icons/video.svg" alt="img"/></span> <span className="text-gradient">Professionals</span> Today</h1>
+                <h1 className="display-5">Discover Photography: Capture Your Trusted <span className="banner-icon"><img src="/theme/assets/img/icons/video.svg" alt="img"/></span> <span className="text-gradient"> Moments</span> Today</h1>
                 <div className="search-box-one">
-                  <form action="/search">
+                  <form action="/search" method="get">
                     <div className="search-input search-line">
                       <i className="isax isax-hospital5 bficon"></i>
                       <div className=" mb-0">
-                        <input type="text" className="form-control" placeholder="Search photographers, services, locations" />
+                        <input name="q" type="text" className="form-control" placeholder="Search photographers, services, locations" />
                       </div>
                     </div>
                     <div className="search-input search-map-line">
                       <i className="isax isax-location5"></i>
                       <div className=" mb-0">
-                        <input type="text" className="form-control" placeholder="Location" />
+                        <input name="location" type="text" className="form-control" placeholder="Location" />
                       </div>
                     </div>
                     <div className="search-input search-calendar-line">
                       <i className="isax isax-calendar-tick5"></i>
                       <div className=" mb-0">
-                        <input type="text" className="form-control datetimepicker" placeholder="Date" />
+                        <input name="date" type="text" className="form-control datetimepicker" placeholder="Date" />
                       </div>
                     </div>
                     <div className="form-search-btn">
@@ -58,7 +60,7 @@ export default function HomePage(){
             </div>
             <div className="col-lg-5">
               <div className="banner-img">
-                <img src="/theme/assets/img/banner/banner-doctor.svg" className="img-fluid" alt="banner" />
+                <img src="/theme/assets/img/banner/doctor-banner.png" className="img-fluid" alt="banner" />
                 <div className="banner-appointment">
                   <h6>1K</h6>
                   <p>Appointments <span className="d-block">Completed</span></p>
@@ -89,6 +91,13 @@ export default function HomePage(){
                   </div>
                   <h6>Book Appointment</h6>
                 </a>
+                <a href="/" className="list-item">
+                  <div className="list-icon bg-pink">
+                    <img src="/theme/assets/img/icons/list-icon-03.svg" alt="img" />
+                  </div>
+                  <h6>Services</h6>
+                </a>
+
                 <a href="/photographer" className="list-item">
                   <div className="list-icon bg-primary">
                     <img src="/theme/assets/img/icons/list-icon-02.svg" alt="img" />
@@ -97,9 +106,9 @@ export default function HomePage(){
                 </a>
                 <a href="/" className="list-item">
                   <div className="list-icon bg-pink">
-                    <img src="/theme/assets/img/icons/list-icon-03.svg" alt="img" />
+                    <img src="/theme/assets/img/icons/list-icon-06.svg" alt="img" />
                   </div>
-                  <h6>Services</h6>
+                  <h6>Blog</h6>
                 </a>
               </div>
             </div>

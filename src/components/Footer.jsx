@@ -55,7 +55,7 @@ export default function Footer(){
             <div className="col-lg-4 col-md-7">
               <div className="footer-widget">
                 <h6 className="footer-title">Newsletter</h6>
-                <p className="mb-2">Subscribe & Stay Updated from the Doccure</p>
+                <p className="mb-2">Subscribe & Stay Updated from the Photography</p>
                 <div className="subscribe-input">
                   <form action="#">
                     <input type="email" className="form-control" placeholder="Enter Email Address" />
@@ -85,7 +85,7 @@ export default function Footer(){
         <div className="container">
           <div className="copyright">
             <div className="copyright-text">
-              <p className="mb-0">Copyright © 2025 Doccure. All Rights Reserved</p>
+              <p className="mb-0">Copyright © 2025 Photography. All Rights Reserved</p>
             </div>
             <div className="copyright-menu">
               <ul className="policy-menu">

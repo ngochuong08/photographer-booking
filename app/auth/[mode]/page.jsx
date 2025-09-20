@@ -1,13 +1,17 @@
+"use client"
+import LoginForm from '../../../src/components/LoginForm'
+import RegisterForm from '../../../src/components/RegisterForm'
+import React from 'react'
+
 export default function AuthPage({ params }){
   const { mode } = params
   return (
-    <div>
-      <h2>{mode === 'register' ? 'Register' : 'Login'}</h2>
-      <form>
-        <label>Email<input type="email"/></label>
-        <label>Password<input type="password"/></label>
-        <button type="submit">{mode === 'register' ? 'Create account' : 'Login'}</button>
-      </form>
+    <div className="account-page">
+      <div className="container">
+        {mode === 'login' && <LoginForm />}
+        {mode === 'register' && <RegisterForm />}
+        {mode !== 'login' && mode !== 'register' && <div className="py-5"><h2>{mode} (not implemented)</h2></div>}
+      </div>
     </div>
   )
 }

@@ -14,16 +14,23 @@ export default function RootLayout({ children }){
       <head>
         {/* Theme CSS (served from public/theme) */}
         <link rel="stylesheet" href="/theme/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/theme/assets/plugins/select2/css/select2.min.css" />
         <link rel="stylesheet" href="/theme/assets/css/iconsax.css" />
         <link rel="stylesheet" href="/theme/assets/css/custom.css" />
       </head>
       <body>
         <Header />
-        <main className="container">{children}</main>
+        <main className="main-wrapper">{children}</main>
         <Footer />
 
         {/* Theme scripts (some depend on jQuery) */}
         <Script src="/theme/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
+        {/* Select2 depends on jQuery and must load before theme scripts that call it */}
+        <Script src="/theme/assets/plugins/select2/js/select2.min.js" strategy="beforeInteractive" />
+        {/* Moment.js is required by bootstrap-datetimepicker */}
+        <Script src="/theme/assets/js/moment.min.js" strategy="beforeInteractive" />
+        {/* Datetimepicker plugin (depends on jQuery + moment) */}
+        <Script src="/theme/assets/js/bootstrap-datetimepicker.min.js" strategy="beforeInteractive" />
         <Script src="/theme/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
         <Script src="/theme/assets/js/aos.js" strategy="afterInteractive" />
         <Script src="/theme/assets/js/script.js" strategy="afterInteractive" />
