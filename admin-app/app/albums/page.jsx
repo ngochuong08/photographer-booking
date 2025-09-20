@@ -15,7 +15,9 @@ export default function AlbumsPage(){
                 <h3 className="page-title">Collections</h3>
               </div>
               <div className="col-sm-5 col">
-                <a href="#Add_Album" data-bs-toggle="modal" className="btn btn-primary float-end mt-2">Add new collection</a>
+                <a href="#Add_Album" data-bs-toggle="modal" className="btn btn-primary btn-rounded float-end mt-2">
+                      <i class="fa fa-plus"></i> Add new collection</a>
+            
               </div>
             </div>
           </div>

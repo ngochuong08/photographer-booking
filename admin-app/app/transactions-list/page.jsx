@@ -14,10 +14,6 @@ export default function TransactionsListPage(){
             <div className="row">
               <div className="col-sm-12">
                 <h3 className="page-title">Transactions</h3>
-                <ul className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                  <li className="breadcrumb-item active">Transactions</li>
-                </ul>
               </div>
             </div>
           </div>
