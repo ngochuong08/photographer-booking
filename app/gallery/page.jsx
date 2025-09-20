@@ -40,7 +40,7 @@ export default function CollectionsPage(){
                       <ul className="entry-meta meta-item">
                         <li>
                           <div className="post-author">
-                            <a href="#"><img src="/theme/assets/img/profiles/avatar-02.jpg" alt="Author" /> By <span>Anna</span></a>
+                            <a href="#"><img src="/theme/assets/img/clients/client-01.jpg" alt="Author" /> By <span>Anna</span></a>
                           </div>
                         </li>
                         <li><i className="isax isax-calendar-1" /> 12 Jul 2025</li>
@@ -61,7 +61,7 @@ export default function CollectionsPage(){
                       <ul className="entry-meta meta-item">
                         <li>
                           <div className="post-author">
-                            <a href="#"><img src="/theme/assets/img/profiles/avatar-03.jpg" alt="Author" /> By <span>Mark</span></a>
+                            <a href="#"><img src="/theme/assets/img/clients/client-02.jpg" alt="Author" /> By <span>Mark</span></a>
                           </div>
                         </li>
                         <li><i className="isax isax-calendar-1" /> 03 Jun 2025</li>
@@ -82,7 +82,7 @@ export default function CollectionsPage(){
                       <ul className="entry-meta meta-item">
                         <li>
                           <div className="post-author">
-                            <a href="#"><img src="/theme/assets/img/profiles/avatar-04.jpg" alt="Author" /> By <span>Sara</span></a>
+                            <a href="#"><img src="/theme/assets/img/clients/client-03.jpg" alt="Author" /> By <span>Sara</span></a>
                           </div>
                         </li>
                         <li><i className="isax isax-calendar-1" /> 18 May 2025</li>
@@ -103,7 +103,7 @@ export default function CollectionsPage(){
                       <ul className="entry-meta meta-item">
                         <li>
                           <div className="post-author">
-                            <a href="#"><img src="/theme/assets/img/profiles/avatar-05.jpg" alt="Author" /> By <span>Claire</span></a>
+                            <a href="#"><img src="/theme/assets/img/clients/client-04.jpg" alt="Author" /> By <span>Claire</span></a>
                           </div>
                         </li>
                         <li><i className="isax isax-calendar-1" /> 02 Apr 2025</li>

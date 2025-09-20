@@ -1,11 +1,11 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
 
-export default function Booking(){
-  const { id } = useParams()
+// Booking component no longer depends on react-router-dom.
+// Accepts `id` as a prop when rendered inside Next pages.
+export default function Booking({ id }){
   return (
     <div>
-      <h2>Book Photographer #{id}</h2>
+      <h2>Book Photographer #{id ?? '—'}</h2>
       <form>
         <label>Choose date
           <input type="date" name="date" />

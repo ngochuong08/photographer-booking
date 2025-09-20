@@ -1,8 +1,7 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
 
-export default function Auth(){
-  const { mode } = useParams()
+// Auth component no longer depends on react-router-dom. Accepts `mode` prop ('login'|'register').
+export default function Auth({ mode = 'login' }){
   return (
     <div>
       <h2>{mode === 'register' ? 'Register' : 'Login'}</h2>

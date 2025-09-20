@@ -1,14 +1,12 @@
 import React from 'react'
-import { useParams, Link } from 'react-router-dom'
 
-export default function Photographer(){
-  const { id } = useParams()
-
+// Photographer component is now prop-driven to avoid react-router-dom.
+export default function Photographer({ id }){
   return (
     <div>
-      <h2>Photographer #{id}</h2>
+      <h2>Photographer #{id ?? '—'}</h2>
       <p>Profile and portfolio will appear here.</p>
-      <Link to={`/booking/${id}`}>Book this photographer</Link>
+      <a href={`/booking/${id}`}>Book this photographer</a>
     </div>
   )
 }
